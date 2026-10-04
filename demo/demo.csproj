@@ -13,9 +13,10 @@
   </PropertyGroup> -->
 
   <!-- Offline Only -->
-  <!-- The path ./packages can be anywhere on your computer. For this example it is inside the project folder. -->
+  <!-- DO NOT use the name "packages" - it appears to be reserved, check the default `.gitignore`.
+  The path can be anywhere on your computer, but for this example it is inside the project folder. -->
   <PropertyGroup>
-    <RestoreSources>./packages</RestoreSources>
+    <RestoreSources>./LocalPackages</RestoreSources>
   </PropertyGroup>
 
   <ItemGroup>

@@ -3,7 +3,7 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
-packages/
+LocalPackages/*.nupkg
 
 # dotenv files
 .env
